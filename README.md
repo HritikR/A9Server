@@ -32,10 +32,7 @@ This Go implementation is limited to MJPG video streaming. If you require additi
    ```bash
    ./a9server
    ```
-
-### Configuration
-The server will start and expose the MJPG stream over HTTP on a specified port (e.g., `localhost:8080`). You can configure the port in the code or by using environment variables as needed.
-
+   
 ## Usage
 Once the server is running, you can connect to the MJPG stream `http://localhost:8080/stream` to view the live video feed from the A9 WiFi mini-camera.
 
